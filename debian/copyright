@@ -1,0 +1,71 @@
+This work was packaged for Debian by:
+
+    Alexandre Quessy <alexandre@quessy.net> on Sat, 29 May 2010 18:01:45 -0400
+
+It was downloaded from https://svn.sat.qc.ca/trac/lunch/
+
+Upstream Author(s):
+
+    Alexandre Quessy <alexandre@quessy.net>
+    Simon Piette <simonp@sat.qc.ca>
+
+Copyright:
+
+    Copyright (C) 2009 Société des arts technologiques (SAT)
+
+License:
+
+    Lunch
+    Copyright (C) 2009 Société des arts technologiques (SAT)
+    http://www.sat.qc.ca
+    All rights reserved.
+
+    This file is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 2 of the License, or
+    (at your option) any later version.
+
+    Lunch is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Lunch. If not, see <http://www.gnu.org/licenses/>.
+
+    On Debian systems the full text of the GNU General Public License version 2
+    can be found in the `/usr/share/common-licenses/GPL-2' file.
+
+The Debian packaging is:
+
+    Copyright (C) 2010 Alexandre Quessy <alexandre@quessy.net>
+
+and is licensed under the GPL version 3,
+see `/usr/share/common-licenses/GPL-3'.
+
+There are files and directories which have a different copyright/license
+attached. Here is a list.
+
+    lunch/sig.py is copyright 2008 Thiago Marcos P. Santos and is licensed
+    under the MIT license.
+
+    Copyright (c) 2008 Thiago Marcos P. Santos
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+

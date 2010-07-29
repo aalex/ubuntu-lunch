@@ -1,0 +1,41 @@
+lunch (0.3.5-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Thu, 29 Jul 2010 10:30:43 -0400
+
+lunch (0.3.4-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Mon, 19 Jul 2010 17:14:14 -0400
+
+lunch (0.3.3-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Thu, 15 Jul 2010 18:04:57 -0400
+
+lunch (0.3.2-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Wed, 23 Jun 2010 00:58:00 -0400
+
+lunch (0.3.1-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Fri, 18 Jun 2010 10:43:39 -0400
+
+lunch (0.3.0-2) lucid; urgency=low
+
+  * Added python-setuptools to build-deps
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Wed, 16 Jun 2010 12:18:54 -0400
+
+lunch (0.3.0-1) lucid; urgency=low
+
+  * New upstream release
+
+ -- Alexandre Quessy <alexandre@quessy.net>  Wed, 16 Jun 2010 10:43:57 -0400

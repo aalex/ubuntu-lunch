@@ -1,0 +1,28 @@
+Source: lunch
+Section: utils
+Priority: optional
+Maintainer: Python Applications Packaging Team <python-apps-team@lists.alioth.debian.org>
+Uploaders: Alexandre Quessy <alexandre@quessy.net>
+Build-Depends: python-support (>= 0.90), debhelper (>= 7), python, python-setuptools
+Build-Depends-Indep: help2man, python-twisted-core, python-gtk2
+XS-Python-Version: all
+Standards-Version: 3.8.4
+Homepage: http://svn.sat.qc.ca/trac/lunch
+
+Package: lunch
+Architecture: all
+Depends: ${misc:Depends}, openssh-client, python-twisted-core, python-gtk2, ${python:Depends}, xterm
+Recommends: openssh-server
+Description: distributed process launcher
+ Lunch is a distributed process launcher and manager for GNU/Linux.
+ .
+ With Lunch, one can launch software processes on several different computers
+ and make sure they keep running. This software was created to suit the needs
+ of new media artists for live performances and interactive installations.
+ It respawns the software that crash and provides a mean to manage
+ dependencies between running processes.
+ .
+ It provides the command-line lunch utility which can be invoked with a GTK+
+ user interface.
+ .
+ See http://svn.sat.qc.ca/trac/lunch for more information.
