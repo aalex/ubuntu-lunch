@@ -192,12 +192,11 @@ class Command(object):
         @type verbose: bool
         @type delay_before_kill: float
         @type ssh_port: int
+        @param try_again_delay: Time to wait before trying again if it crashes at startup.
+        @type try_again_delay: C{float}
+        @param give_up_after: How many times to try again before giving up.
+        @type give_up_after: C{int}
         """
-        #TODO:
-        #@param try_again_delay: Time to wait before trying again if it crashes at startup.
-        #@type try_again_delay: C{float}
-        #@param give_up_after: How many times to try again before giving up.
-        #@type give_up_after: C{int}
         self.command = command
         self.identifier = identifier
         self.env = {}
@@ -287,7 +286,8 @@ class Command(object):
         If the lunch-slave is already started, starts its child.
         """
         self.enabled = True
-        self._has_shown_ssh_error = False
+        #FIXME:2010-08-17:aalex:We won't reset the _has_shown_ssh_error state when starting, otherwise it shows the error many times.
+        # self._has_shown_ssh_error = False
         self.gave_up = False
         if self.how_many_times_tried == 0:
             self._current_try_again_delay = self.try_again_delay
@@ -653,7 +653,7 @@ class Command(object):
             self.send_stop()
         else:
             msg = "Cannot stop child %s that is %s." % (self.identifier, self.child_state)
-            self.log(msg, logging.ERROR)
+            self.log(msg, logging.WARNING)
 
     def send_stop(self):
         self.send_message("stop")
