@@ -71,7 +71,7 @@ def run():
             print("Could not load the GTK+ graphical user interface. " + str(e))
             GUI_ENABLED = False
     else:
-        print("Using lunch master without the GUI.")
+        # print("Using lunch master without the GUI.")
         GUI_ENABLED = False
     from twisted.internet import reactor
     from twisted.internet import defer
@@ -79,7 +79,7 @@ def run():
     from lunch import master
     error_message = None
     if not os.path.exists(config_file):
-        error_message = "No such file: %s." % (config_file)
+        error_message = "No such file: %s" % (config_file)
     else:
         log_level = 'warning'
         if options.verbose:
